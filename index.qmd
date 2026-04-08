@@ -128,7 +128,7 @@ The steps includes topic selection, conceptualised and create protocol, searchin
 This might still be quite abstract to you, so let me show you an example.
 :::
 
-## [Example of a sysrematic review and meta-analysis]{auto-animate="true"}
+## [Example of a systematic review and meta-analysis]{auto-animate="true"}
 
 <iframe src="https://jogh.org/2025/jogh-15-04166" width="1200" height="600" style="border:none;">
 
@@ -179,7 +179,7 @@ The training set will be used in the first and second apps for prompt engineerin
 ## [Accurate Evaluation]{auto-animate="true"}
 
 | Model     | No. Patients | No. AKI | ICU Only | Mean Age | Median Age | Start Date | End Date |
-|-----------|--------------|---------|----------|----------|------------|------------|----------|
+|---------|---------|---------|---------|---------|---------|---------|---------|
 | llama     | 0.85         | 0.86    | 0.79     | 0.73     | 0.45       | 0.44       | 0.47     |
 | gemma     | 0.68         | 0.53    | 0.89     | 0.73     | 0.64       | 0.40       | 0.49     |
 | medllama  | 0.66         | 0.51    | 0.32     | 0.73     | NA         | 0.51       | 0.49     |
