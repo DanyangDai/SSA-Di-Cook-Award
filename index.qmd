@@ -178,42 +178,28 @@ The training set will be used in the first and second apps for prompt engineerin
 
 ## [Accurate Evaluation]{auto-animate="true"}
 
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 | Model     | No. Patients | No. AKI | ICU Only | Mean Age | Median Age | Start Date | End Date |
-+===========+==============+=========+==========+==========+============+============+==========+
+|---------|---------|---------|---------|---------|---------|---------|---------|
 | llama     | 0.85         | 0.86    | 0.79     | 0.73     | 0.45       | 0.44       | 0.47     |
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 | gemma     | 0.68         | 0.53    | 0.89     | 0.73     | 0.64       | 0.40       | 0.49     |
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 | medllama  | 0.66         | 0.51    | 0.32     | 0.73     | NA         | 0.51       | 0.49     |
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 | mistral   | 0.76         | 0.49    | 0.53     | 0.73     | 0.64       | 0.42       | 0.51     |
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 | nuextract | 0.85         | 0.30    | 0.47     | 0.64     | 0.45       | 0.28       | 0.35     |
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 | deepseek  | 0.42         | 0.51    | 0.37     | 0.73     | 0.55       | 0.51       | 0.53     |
-+-----------+--------------+---------+----------+----------+------------+------------+----------+
 
 : For all LLMs, the model temperature was set to 0.
 
 ## [Total Accuracy of the LLMs and Run Time]{auto-animate="true"}
-
-+-------------+----------+------------+
+::: {style="text-align:center;"}
 | Model       | Accuracy | Run time   |
-+=============+==========+============+
+|-------------|----------|------------|
 | llama3.1    | 0.693    | 9.21 mins  |
-+-------------+----------+------------+
 | gemma3      | 0.594    | 9.02 mins  |
-+-------------+----------+------------+
 | medllama2   | 0.533    | 9.61 mins  |
-+-------------+----------+------------+
 | mistral     | 0.594    | 11.55 mins |
-+-------------+----------+------------+
 | nuextract   | 0.529    | 6.91 mins  |
-+-------------+----------+------------+
 | deepseek-r1 | 0.483    | 11.48 mins |
-+-------------+----------+------------+
-
+:::
 ## [Furture work]{auto-animate="true"}
 
 -   Expand the extraction to text for qualitative analysis
@@ -276,10 +262,10 @@ Prof. Jason Pole [j.pole\@uq.edu.au](j.pole@uq.edu.au)
 
 ## [Stay in touch]{auto-animate="true"}
 
-.center[<img src="https://media.giphy.com/media/RiykPw9tgdOylwFgUe/giphy.gif" style="width:30%"/>]
+::: {style="text-align:center;"}
+<img src="https://media.giphy.com/media/RiykPw9tgdOylwFgUe/giphy.gif" style="width:30%"/>
+:::
 
-[danyan.dai01@gmail.com](mailto:danyan.dai01@gmail.com)
+[danyan.dai01\@gmail.com](mailto:danyan.dai01@gmail.com)
 
-[https://www.linkedin.com/in/danyang-dai-7529b4152/](https://www.linkedin.com/in/danyang-dai-7529b4152/)
-
-
+<https://www.linkedin.com/in/danyang-dai-7529b4152/>
